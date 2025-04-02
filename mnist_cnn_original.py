@@ -3,7 +3,7 @@ Gets to 99.25% test accuracy after 12 epochs
 (there is still a lot of margin for parameter tuning).
 16 seconds per epoch on a GRID K520 GPU.
 '''
-
+'''this is first clone test'''
 from __future__ import print_function
 import tensorflow.keras
 from tensorflow.keras.datasets import mnist
@@ -86,6 +86,7 @@ plt.ylabel('accuracy')
 plt.xlabel('epoch')
 plt.legend(['train', 'test'], loc='upper left')
 plt.show()
+
 
 
 
